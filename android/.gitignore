@@ -1,0 +1,27 @@
+# OSX
+#
+.DS_Store
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+gradle/gradle-daemon-jvm.properties
+
+# generated inline modules
+app/src/main/java/inline/
+
+# Bundle artifacts
+*.jsbundle
+
+# Release signing — never committed. Losing this keystore means the
+# app can never be updated under the same identity again; see
+# docs/RELEASE.md for where it's kept and why.
+*.keystore
+*.jks
+keystore.properties
